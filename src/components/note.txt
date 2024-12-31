@@ -1,0 +1,20 @@
+   JSON server deployment 
+---------------------------------------
+
+ install stable version:  npm i json-server@0.17.4
+
+ create index.js inside server folder
+
+ update scripts key of package.json file with {"start": "node index.js"} and remove test key from it 
+
+ create .gitignore file , to node_modules inside it
+
+ define steps to run db.json file using json-server in index.js 
+   -import json-server
+   -create a server for media-player inorder to run our server app
+   -craete a middleware 
+   -
+   -setup apath for db.json file so that client can make tje request
+   - use the middleware,route inside the server
+   -run the server using given port 
+   -to execute our app  we have to use : node index.js  in terminal  
